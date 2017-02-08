@@ -23,12 +23,21 @@ public class MyPanelClass extends JPanel {
         //Paint the background
         g.setColor(Color.darkGray);
         g.fillRect(x1, y1, width + 1, height + 1);
-        //Draw a border
-        g.setColor(Color.YELLOW);
-        g.drawRect(x1, y1, width, height);
-        //Draw inside border
-        g.setColor(Color.blue);
-        g.drawRect(x1 + 6, y1 + 6, width -12, height -12);
+      //Draw a border
+      //g.setColor(Color.YELLOW);
+      //g.drawRect(x1, y1, width, height);
+      //Draw inside border
+      //g.setColor(Color.blue);
+      //g.drawRect(x1 + 6, y1 + 6, width -12, height -12);
+      //Draw diagonal line from left-top corner to right-down corner
+      //g.setColor(Color.WHITE);
+      //g.drawLine(x1, y1, x2, y2);
+      //Draw diagonal line from left-down corner to right-top corner
+      //g.setColor(Color.CYAN);
+      //g.drawLine(x2, y1, x1, y2 );
+        g.setColor(Color.LIGHT_GRAY);
+        g.fillOval(70, 70, 55, 55);
+        
 }
 	
 }
